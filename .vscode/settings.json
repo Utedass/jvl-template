@@ -1,0 +1,13 @@
+{
+  "makefile.configureOnOpen": false,
+  "vhdl.formatter.case.keyword": "LowerCase",
+  "vhdl.formatter.case.typename": "LowerCase",
+  "vhdl.formatter.newline.else": "NoNewLine",
+  "vhdl.formatter.align.all": true,
+  "vhdl.formatter.insertFinalNewline": true,
+  "[vhdl]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  }
+}
