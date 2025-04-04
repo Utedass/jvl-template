@@ -55,7 +55,8 @@ begin
         if running then
             wait for half_period;
             clock <= not clock;
-        else report "End of simulation!";
+        else
+            report "End of simulation!";
             wait;
         end if;
     end process;
@@ -67,8 +68,8 @@ begin
             elsif enable = '1' then
                 num_rising_edges <= num_rising_edges + 1;
                 divided_en_last  <= divided_en;
-            else 
--- Explicit no change
+            else
+                -- Explicit no change
                 num_rising_edges <= num_rising_edges;
             end if;
         end if;

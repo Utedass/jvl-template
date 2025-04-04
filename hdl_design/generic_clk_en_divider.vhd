@@ -23,8 +23,10 @@ begin
 
     -- Next counter value
     i_counter_val_next <= (others => '1') when rstn = '0'
-        else i_counter_val when en = '0'
-        else i_counter_val + 1;
+        else
+        i_counter_val when en = '0'
+        else
+        i_counter_val + 1;
 
     -- Positive edge detector
     process (clk) is
