@@ -1,0 +1,41 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Jun 11 17:11:54 2025
+[*]
+[dumpfile] "E:\Programmering\FPGA\VHDL\GHDL\jvl-template\simulation\simulation\waves.ghw"
+[savefile] "E:\Programmering\FPGA\VHDL\GHDL\jvl-template\simulation\gtkwave.gtkw"
+[timestart] 0
+[size] 1474 948
+[pos] -1 -1
+*-31.916534 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 211
+[signals_width] 214
+[sst_expanded] 1
+[sst_vpaned_height] 277
+@28
+top.generic_clk_en_divider_tb.clock
+@22
+#{top.generic_clk_en_divider_tb.divided_en[8:0]} top.generic_clk_en_divider_tb.divided_en[8] top.generic_clk_en_divider_tb.divided_en[7] top.generic_clk_en_divider_tb.divided_en[6] top.generic_clk_en_divider_tb.divided_en[5] top.generic_clk_en_divider_tb.divided_en[4] top.generic_clk_en_divider_tb.divided_en[3] top.generic_clk_en_divider_tb.divided_en[2] top.generic_clk_en_divider_tb.divided_en[1] top.generic_clk_en_divider_tb.divided_en[0]
+#{top.generic_clk_en_divider_tb.divided_en_last[8:0]} top.generic_clk_en_divider_tb.divided_en_last[8] top.generic_clk_en_divider_tb.divided_en_last[7] top.generic_clk_en_divider_tb.divided_en_last[6] top.generic_clk_en_divider_tb.divided_en_last[5] top.generic_clk_en_divider_tb.divided_en_last[4] top.generic_clk_en_divider_tb.divided_en_last[3] top.generic_clk_en_divider_tb.divided_en_last[2] top.generic_clk_en_divider_tb.divided_en_last[1] top.generic_clk_en_divider_tb.divided_en_last[0]
+@28
+top.generic_clk_en_divider_tb.enable
+@420
+top.generic_clk_en_divider_tb.num_rising_edges
+@28
+top.generic_clk_en_divider_tb.resetn
+@420
+top.generic_clk_en_divider_tb.running
+@200
+-
+-
+@28
+top.generic_clk_en_divider_tb.dut.clk
+top.generic_clk_en_divider_tb.dut.en
+@22
+#{top.generic_clk_en_divider_tb.dut.en_out[8:0]} top.generic_clk_en_divider_tb.dut.en_out[8] top.generic_clk_en_divider_tb.dut.en_out[7] top.generic_clk_en_divider_tb.dut.en_out[6] top.generic_clk_en_divider_tb.dut.en_out[5] top.generic_clk_en_divider_tb.dut.en_out[4] top.generic_clk_en_divider_tb.dut.en_out[3] top.generic_clk_en_divider_tb.dut.en_out[2] top.generic_clk_en_divider_tb.dut.en_out[1] top.generic_clk_en_divider_tb.dut.en_out[0]
+#{top.generic_clk_en_divider_tb.dut.i_counter_val[8:0]} top.generic_clk_en_divider_tb.dut.i_counter_val[8] top.generic_clk_en_divider_tb.dut.i_counter_val[7] top.generic_clk_en_divider_tb.dut.i_counter_val[6] top.generic_clk_en_divider_tb.dut.i_counter_val[5] top.generic_clk_en_divider_tb.dut.i_counter_val[4] top.generic_clk_en_divider_tb.dut.i_counter_val[3] top.generic_clk_en_divider_tb.dut.i_counter_val[2] top.generic_clk_en_divider_tb.dut.i_counter_val[1] top.generic_clk_en_divider_tb.dut.i_counter_val[0]
+#{top.generic_clk_en_divider_tb.dut.i_counter_val_next[8:0]} top.generic_clk_en_divider_tb.dut.i_counter_val_next[8] top.generic_clk_en_divider_tb.dut.i_counter_val_next[7] top.generic_clk_en_divider_tb.dut.i_counter_val_next[6] top.generic_clk_en_divider_tb.dut.i_counter_val_next[5] top.generic_clk_en_divider_tb.dut.i_counter_val_next[4] top.generic_clk_en_divider_tb.dut.i_counter_val_next[3] top.generic_clk_en_divider_tb.dut.i_counter_val_next[2] top.generic_clk_en_divider_tb.dut.i_counter_val_next[1] top.generic_clk_en_divider_tb.dut.i_counter_val_next[0]
+@28
+top.generic_clk_en_divider_tb.dut.rstn
+[pattern_trace] 1
+[pattern_trace] 0

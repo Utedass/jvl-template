@@ -27,8 +27,9 @@ TOP_TESTBENCH = $(PRIMARY_DESIGN)_tb
 # Commands for GHDL and gtkwave, doesn't necessarily need to be variables but you know..
 GHDL = ghdl
 VIEWER = gtkwave
-WAVEFILE = simulation/waves.vcd
+WAVEFILE = simulation/waves.ghw
 VIEWERTCL = simulation/gtkwave.tcl
+VIEWERPRESET = simulation/gtkwave.gtkw
 
 # Create a string of ghdl options
 WORK_DIR = simulation
@@ -66,12 +67,16 @@ analyze: $(ANALYZE_ARTIFACT)
 #	$(GHDL) -e $(GHDL_OPTIONS) $(TOP_TESTBENCH)
 
 $(RUN_ARTIFACT): $(ELABORATE_ARTIFACT)
-	$(GHDL) -r $(GHDL_OPTIONS) $(TOP_TESTBENCH) --vcd=$(WAVEFILE)
+	$(GHDL) -r $(GHDL_OPTIONS) $(TOP_TESTBENCH) --wave=$(WAVEFILE)
 
 run: $(RUN_ARTIFACT)
 
 view: $(RUN_ARTIFACT)
-	$(VIEWER) $(WAVEFILE) -S $(VIEWERTCL)
+	@if [ -f $(VIEWERPRESET) ]; then \
+		$(VIEWER) $(WAVEFILE) $(VIEWERPRESET); \
+	else \
+		$(VIEWER) $(WAVEFILE) -S $(VIEWERTCL); \
+	fi
 
 clean:
 	$(GHDL) --remove $(GHDL_OPTIONS)
